@@ -3,7 +3,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 data = []
-
 @app.get("/")
 def home():
     return {"message": "Basic FastAPI CRUD"}
